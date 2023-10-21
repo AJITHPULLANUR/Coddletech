@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section-2-main-container{
+    width: 100%;
+    height: 80vh;
+    /* background-color: #ff5656; */
+
+}
+@font-face {
+    font-family: "tanseek";
+    src: url(../../Fonts/tanseek-modern-pro-arabic.ttf);
+}
+
+
+#navbarsupport{
+    /* background-color: blue; */
+    width: 860px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32%;
+  
+}
+#section-1-button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.nav-item{
+    /* background-color: red; */
+    width: 116px;
+    font-size: 15px;
+    color: black;
+}
+#section1-figma-wave{
+    margin-left: 54%;
+    position: absolute;
+    margin-top: -260px;
+
+}
+#section1-nav{
+    position: relative;
+    height: 90px;
+    width: 100%;
+    /* background-color: yellow; */
+    overflow: hidden;
+    z-index: 1;
+}
+#section-1-nav-head{
+    width: 130px;
+    height: 70px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-weight: bold;   
+    font-size: 22px;
+    font-family: "tanseek";
+}
+/* ---------------------------------Part-one----------------------------- */
+.section-2-first-part{
+    width: 100%;
+    height: 150px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.section-2-head-categry{
+    color: darkgray;
+    text-align: center;
+}
+
+
+.section-2-head-offrsandservices{
+    font-size: 50px;
+    color: black(161, 0, 0);
+    text-align: center;
+
+}
+/* ----------------------------Part-two---------------------------------*/
+.section-2-secnd-part{
+width: 100%;
+height: 464px;
+/* background-color: blue; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.section-2-secnd-part-sub-one{
+    width: 90%;
+    height: 350px;
+    /* background-color: red; */
+    display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.section-2-secnd-part-cards{
+    width: 200px;
+    height: 250px;
+    /* background-color: yellow; */
+    border-radius: 40px;
+    
+}
+.section-2-card-img1-div{
+    width: 100%;
+    height: 130px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-2-card-head-one{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-2-card-para-one{
+    width: 100%;
+    height: 70px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mees{
+    position: absolute;
+    top: 542px;
+    left: 380px;
+    
+}.section-2-secnd-part-cards{
+    width: 200px;
+    height: 280px;
+    background-color: whitesmoke;
+    border-radius: 40px;
+    position: relative;
+
+   
+
+}
+.section-2-secnd-part-cards:hover{
+transform: scale(1.05);
+transition-duration: 1.1s;
+background-color: whitesmoke;
+}
+.heads{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+/* foooter/////////////////////////////////////////////////////////////////////////// */
+
+
+.section-5-footer-div{
+    width: 100%;
+    height: 260px;
+    /* background-color: red; */
+    margin-top: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-5-footer-main{
+    width: 61%;
+    height: 160px;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-5-footer-main2{
+    width: 61%;
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-5-footer-details-1{
+    width: 200px;
+    height: 160px;
+    /* background-color: yellow; */
+}
+.section-5-footer-details-2{
+    width: 130px;
+    height: 160px;
+    /* background-color: yellow; */
+}
+.section-5-footer-details-3{
+    width: 130px;
+    height: 160px;
+    /* background-color: yellow; */
+}
+.section-5-footer-details-4{
+    width: 130px;
+    height: 160px;
+    /* background-color: yellow; */
+}
+.section-5-footer-details-5{
+    width: 200px;
+    height: 160px;
+    /* background-color: yellow; */
+}
+.section-footer-box-1{
+    width: 200px;
+    /* background-color: red; */
+    height: 50px;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+.section-footer-234{
+    width: 130px;
+    /* background-color: green; */
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.section-footer-list{
+    width: 200px;
+    /* background-color: rgb(104, 129, 104); */
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    font-size: 13px;
+    padding-top: 10px;
+}
+.section-footer-list2{
+    width: 130px;
+    /* background-color: rgb(42, 145, 230); */
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.section-footer-li{
+    color: grey;
+    font-size: 14px;
+    font-weight: bold;
+}
+.section-5-footer-social{
+    width: 200px;
+    height: 60px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section-5-footer-discover{
+    width: 200px;
+    height: 30px;
+    /* background-color: blue;  */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.section-5-footer-apps{
+    width: 200px;
+    height: 50px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section-5-soc{
+    width: 25px;
+    height: 25px;
+}
+.section-5-soc1{
+    width: 30px;
+    height: 30px;
+}
+.section-5-footer-img-div{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-5-dis{
+    color: grey;
+    font-weight: bold;
+    font-size: 16px;
+}
+.section-footer-biglist{
+    color: grey;
+}
+.section-5-footer-last{
+    color: grey;
+    font-size: 12px;
+}

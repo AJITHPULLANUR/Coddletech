@@ -1,0 +1,361 @@
+@media(max-width:500px){
+
+   
+
+
+    *{
+        margin: 0;
+        padding: 0;
+       
+    }
+    *::-webkit-scrollbar{
+        display: none;
+    }
+    .Section-1-Maindiv{
+        width: 400px;
+        height: 630px;
+        /* background-color: rgb(68, 45, 172); */
+        position: relative;
+    
+    }
+    
+    
+    /* ///////////////Navbar////////////// */
+    #navbarsupport{
+        margin-left: 0;
+        width: 400px;
+        /* background-color: rgb(75, 197, 51); */
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 2px;
+        
+        height: 40px;
+    
+        
+        }
+       
+    
+   
+    
+   
+  
+    #section-1-button{
+        width: 60px;
+        height: 20px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        overflow: hidden;
+        font-size: 9px;
+        font-weight: bold;
+    }
+    #section1-figma-wave{
+        margin-left: 0;
+        position: absolute;
+        margin-top: -260px;
+        display: none;
+    
+    }
+    #section1-nav{
+        position: static;
+        width: 400px;
+height: 80px;     
+        /* background-color: rgb(0, 66, 128); */
+      
+    }
+    #section-1-nav-head{
+        /* background-color: rgb(20, 177, 46); */
+      height: 30px;
+        font-weight: bold;   
+        font-size: 9px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #section-1-girl{
+        position: relative;
+        margin-left: 0;
+        display: none;
+       
+    }
+    
+    
+    /* /////////////////////////////////////BOX////////////////////////////////// */
+    .section-1-textdiv{
+        width: 380px;
+        height: 520px;
+        /* background-color: red; */
+        margin-top: 0;
+        margin-left: 0;
+        overflow: hidden;
+    }
+    .section-1-first-head{
+        /* background-color: blueviolet; */
+        width: 390px;
+        height: 30px;
+        /* background-color: gray; */
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        font-weight: bold;
+    }
+    .section-1-first-head2{
+        width: 420px;
+        height: 260px;
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+        align-items: start;
+        position: relative;
+        overflow: hidden;
+    }
+    .section-1-first-big-head{
+        font-size: 54px;
+        font-weight: bold;
+        overflow: hidden;
+        letter-spacing: 1px;
+        justify-content: center;
+        align-items: start;
+        z-index: 1000;
+        overflow: hidden;
+    
+    }
+    .section-1-first-head3{
+        width: 390px;
+        height: 120px;
+        /* background-color: gray; */
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+        align-items: start;
+        font-size: 15px;
+        overflow: hidden;
+    }
+    .section-1-first-head4{
+        width: 320px;
+        height: 80px;
+        /* background-color: green; */
+        display: flex;
+    justify-content: space-between;
+        overflow: hidden;
+        margin-left: 30px;
+    }
+    .section-1-first-button1{
+        width: 140px;
+        height: 50px;
+        background-color: rgb(231, 141, 4);
+        border-radius: 5px;
+        color: white;
+        border: 0;
+        overflow: hidden;
+    }
+    .section-1-first-button2{
+        width: 140px;
+        height: 50px;
+        border-radius: 5px;
+        color: black;
+        border: 0;
+        background-image: url(Section-1-Image/play-button.png);
+        background-size: 28px 28px;
+        background-repeat: no-repeat;
+        background-position: 1px;
+        overflow: hidden;
+       
+       
+    
+    }
+    .section-1-draw{
+        position: absolute;
+        margin-top: -113px;
+        margin-left: 180px;
+        overflow: hidden;
+    
+       
+    }
+    
+    /* foooter/////////////////////////////////////////////////////////////////////////// */
+    
+    
+    .section-5-footer-div{
+        width: 100%;
+        height: 710px;
+        /* background-color: blue; */
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .section-5-footer-main{
+        width: 80%;
+        height: 590px;
+        /* background-color: rgb(130, 238, 135); */
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .section-5-footer-main2{
+        width: 61%;
+        height: 50px;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .section-5-footer-details-1{
+        width: 380px;
+        height: 100px;
+        /* background-color: yellow; */
+        overflow: hidden;
+    }
+    .section-5-footer-details-2{
+        width: 350px;
+        height: 90px;
+        /* background-color: yellow; */
+        overflow: hidden;
+    }
+    .section-5-footer-details-3{
+        width: 350px;
+        height: 90px;
+        /* background-color: yellow; */
+        overflow: hidden;
+    }
+    .section-5-footer-details-4{
+        width: 350px;
+        height: 90px;
+        /* background-color: yellow; */
+        overflow: hidden;
+    }
+    .section-5-footer-details-5{
+        width: 350px;
+        height: 150px;
+        /* background-color: yellow; */
+        overflow: hidden;
+    }
+    .section-footer-box-1{
+        width: 320px;
+        /* background-color: red; */
+        height: 50px;
+        font-size: 24px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    
+    }
+    .section-footer-234{
+        width: 320px;
+        /* background-color: green; */
+        height: 50px;
+        font-size: 15px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .section-footer-list{
+        width: 320px;
+        /* background-color: rgb(83, 226, 83); */
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        font-size: 13px;
+        padding-top: 10px;
+        overflow: hidden;
+    }
+    .section-footer-list2{
+        width: 320px;
+        /* background-color: rgb(42, 145, 230); */
+        height: 40px;
+        display: flex;
+      flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        overflow: hidden;
+    }
+    .section-footer-li{
+        color: grey;
+        font-size: 14px;
+        font-weight: bold;
+        overflow: hidden;
+    }
+    .section-5-footer-social{
+        width: 320px;
+        height: 60px;
+        /* background-color: rgb(189, 20, 20); */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        overflow: hidden;
+    }
+    .section-5-footer-discover{
+        width: 320px;
+        height: 30px;
+        /* background-color: blue;  */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .section-5-footer-apps{
+        width: 320px;
+        height: 50px;
+        /* background-color: green; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        overflow: hidden;
+    }
+    .section-5-soc{
+        width: 25px;
+        height: 25px;
+        overflow: hidden;
+    }
+    .section-5-soc1{
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+    }
+    .section-5-footer-img-div{
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .section-5-dis{
+        color: grey;
+        font-weight: bold;
+        font-size: 16px;
+        overflow: hidden;
+    }
+    .section-footer-biglist{
+        color: grey;
+    }
+    .section-5-footer-last{
+        color: grey;
+        font-size: 12px;
+    }
+    
+}
